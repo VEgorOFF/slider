@@ -1,317 +1,305 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
+  /* max-width: 1440px;
+  margin: 0 auto; */
 }
-
-
 
 /* block2 */
 
 .block2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #131313;
-    width: 100%;
-    height: 950px;
-    padding-top: 107px;
-    gap: 90px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+  width: 100%;
+  height: 950px;
+  padding-top: 107px;
+  gap: 90px;
 }
 
 .block2 h2 {
-    font-family: Yeseva One;
-    font-size: 27px;
-    font-weight: 400;
-    line-height: 37.42px;
-    letter-spacing: -0.07em;
-    text-align: left;
-    color: #E3B873;
-    text-transform: uppercase;
-
+  font-family: Yeseva One;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37.42px;
+  letter-spacing: -0.07em;
+  text-align: left;
+  color: #e3b873;
+  text-transform: uppercase;
 }
 
 .block2 p {
-    font-family: Nunito Sans;
-    font-size: 14px;
-    line-height: 26.73px;
-    text-align: left;
-    color: #FFFFFF;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  line-height: 26.73px;
+  text-align: left;
+  color: #ffffff;
 }
 
 .block2 h3 {
-    font-family: Yeseva One;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.95px;
-    text-align: left;
-    color: #E3B873;
-    text-transform: uppercase;
+  font-family: Yeseva One;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.95px;
+  text-align: left;
+  color: #e3b873;
+  text-transform: uppercase;
 }
 
 .block2__up {
-    display: flex;
-    flex-flow: row nowrap;
-    padding-left: 134px;
-    padding-right: 134px;
-    gap: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 134px;
+  padding-right: 134px;
+  gap: 50px;
 }
 
 .block2__up__left {
-    display: flex;
-    flex-direction: column;
-    width: 42.02%;
-    padding-top: 72px;
-    gap: 42px;
+  display: flex;
+  flex-direction: column;
+  width: 42.02%;
+  padding-top: 72px;
+  gap: 42px;
 }
-
 
 .block__up__left__up {
-    display: flex;
-    flex-direction: column;
-    gap: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
 }
 
-
-
 .block2__up__right {
-    width: 57.98%;
+  width: 57.98%;
 }
 
 .block__up__left__down {
-    display: grid;
+  display: grid;
 
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 34px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
 }
 
 #item1 {
-    grid-row-start: 1;
-    grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-start: 1;
 
-    grid-row-end: 2;
-    grid-column-end: 2;
+  grid-row-end: 2;
+  grid-column-end: 2;
 }
 
 #item2 {
-    grid-row-start: 1;
-    grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-start: 2;
 
-    grid-row-end: 2;
-    grid-column-end: 3;
+  grid-row-end: 2;
+  grid-column-end: 3;
 }
 
 #item3 {
-    grid-row-start: 2;
-    grid-column-start: 1;
+  grid-row-start: 2;
+  grid-column-start: 1;
 
-    grid-row-end: 3;
-    grid-column-end: 2;
+  grid-row-end: 3;
+  grid-column-end: 2;
 }
 
 #item4 {
-    grid-row-start: 2;
-    grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-start: 2;
 
-    grid-row-end: 3;
-    grid-column-end: 3;
+  grid-row-end: 3;
+  grid-column-end: 3;
 }
 
 #item1,
 #item2,
 #item3,
 #item4 {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .block2__up__right {
-    display: flex;
-    flex-direction: column;
-    gap: 53px;
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
 }
 
 .block2__up__right__up {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    gap: 60px;
-    font-family: Yeseva One;
-    font-size: 14px;
-    line-height: 19.4px;
-    text-align: left;
-    color: #FFFFFF4D;
-    text-transform: uppercase;
-    white-space: nowrap;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 60px;
+  font-family: Yeseva One;
+  font-size: 14px;
+  line-height: 19.4px;
+  text-align: left;
+  color: #ffffff4d;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .block2__up__right__up div:hover {
-    cursor: pointer;
-    color: #E3B873;
-    text-decoration: underline;
-    text-underline-offset: 10px;
+  cursor: pointer;
+  color: #e3b873;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .strelki {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 17px;
-
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 17px;
 }
 
 .rectangle {
-    fill: #FFFFFF4D;
-
+  fill: #ffffff4d;
 }
 
 .rectangle:hover {
-    fill: #FFFFFF;
-    cursor: pointer;
+  fill: #ffffff;
+  cursor: pointer;
 }
 
 .block2__up__left img:hover {
-    cursor: pointer;
-    border: 0px solid #FFFFFF;
+  cursor: pointer;
+  border: 0px solid #ffffff;
 }
 
 .block2__up__left img {
-    vertical-align: sub;
+  vertical-align: sub;
 }
 
 .block2__down p {
-    font-family: Yeseva One;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 27.72px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: Yeseva One;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.72px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .block2__down div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .block2__down div::after,
 .block2__down div::before {
-    content: url('../images/line.svg');
-    padding: 13px;
+  content: url("../images/line.svg");
+  padding: 13px;
 }
-
-
 
 /* SLIDER */
 
 .slider {
-    position: relative;
-    margin: 20px 0;
+  position: relative;
+  margin: 20px 0;
 }
 
 .slider__images {
-    position: relative;
-    width: 100%;
-    height: 400px;
+  position: relative;
+  width: 100%;
+  height: 400px;
 }
 
 .slider__images-title {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
-    z-index: 1;
-    padding: 7px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  padding: 7px 0;
 }
 
 .slider__images .image {
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: opacity 800ms ease;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 800ms ease;
 }
 
 .slider__images .image.active {
-    opacity: 1;
+  opacity: 1;
 }
 
 .slider__arrow {
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slider__arrow:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .slider__arrow.left {
-    left: 0;
+  left: 0;
 }
 
 .slider__arrow.right {
-    right: 0;
+  right: 0;
 }
 
 .slider__dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider__dots-item {
-    width: 10px;
-    height: 10px;
-    background: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background 0.4s ease;
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.4s ease;
 }
 
 .slider__dots-item:hover,
 .slider__dots-item.active {
-    background: #E3B873;
+  background: #e3b873;
 }
 
-
 .slider__textUp {
-    color: white;
+  color: white;
 }
 
 .text.active {
-    cursor: pointer;
-    color: #E3B873;
-    text-decoration: underline;
-    text-underline-offset: 10px;
+  cursor: pointer;
+  color: #e3b873;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .text-left {
-    display: none;
-    color: white;
+  display: none;
+  color: white;
 }
 
 .text-left.active {
-    display: block;
+  display: block;
 }
